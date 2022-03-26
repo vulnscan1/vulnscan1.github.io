@@ -98,3 +98,21 @@ input{
 	background-color: #fff;
 	color: #000;
 }
+.button1{
+	position: absolute;
+	top: 70%;
+	left: 52.9%;
+	transform: translate(-80%,-80%);
+}
+.btn1{
+	border: 1px solid #fff;
+    border-radius: 5px;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn1:hover{
+	background-color: #8A2BE2;
+	color: #FFF;
+}
