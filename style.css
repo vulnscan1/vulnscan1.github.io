@@ -5,7 +5,7 @@
 	}
 
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.webp);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img1.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -18,18 +18,18 @@ ul{
 ul li{
 	display: inline-block;
 }
-ul li a{
+ul li {
 	text-decoration: none;
 	color: #FFFFFF;
 	padding: 10px 20px;
 	border: 1px solid transparent;
 	transition: 0.6s ease
 	}
-ul li a:hover{
+ul li r{
 	background-color: #fff;
 	color: #000;
 }
-ul li.active a{
+ul li{
 	background-color: #fff;
 	color: #000;
 }
@@ -115,4 +115,20 @@ input{
 .btn1:hover{
 	background-color: #8A2BE2;
 	color: #FFF;
+}
+
+
+
+
+a{
+	text-decoration: none!important;
+	color: white;
+	padding: 15px;
+	
+}
+a:hover{
+	color: chartreuse;
+}
+.active{
+	color: greenyellow!important;
 }
